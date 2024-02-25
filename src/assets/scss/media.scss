@@ -36,8 +36,8 @@
 @media (max-width: 420px) {
   .btn-group {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
   }
 
   .btn-secondary {
