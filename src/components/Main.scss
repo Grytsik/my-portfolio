@@ -1,0 +1,87 @@
+@import '../assets/style.scss';
+
+
+.main {
+  // height: 100vh;
+}
+
+.main__container {
+  max-width: $max-width;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .main__greeting {
+    font-size: 16px;
+    color: $color-primary;
+    letter-spacing: 3px;
+  }
+
+  .main__title {
+    font-size: $title-size;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    color: $white-color;
+  }
+
+  .main__subtitle {
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+
+  .main__subtitle {
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+
+  .main__text {
+    font-size: $text-size;
+    font-weight: 200;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+}
+
+.btn-group {
+  margin-top: 30px;
+}
+
+.btn {
+  outline: none;
+  padding: 9px 21px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 7px;
+  background: transparent;
+  transition: all 0.4s ease;
+  cursor: pointer;
+
+  font-weight: 500;
+
+
+  &-primary {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    &:hover {
+        background: $color-primary;
+        color: $font-color-dark;
+    }
+  }
+
+  &-secondary {
+    border: 1px solid $color-secondary;
+    color: $color-secondary;
+    margin-left: 10px;
+    &:hover {
+        background: $color-secondary;
+        color: $font-color-dark;
+    }
+  }
+}

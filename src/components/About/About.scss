@@ -1,0 +1,30 @@
+@import '../../assets/style.scss';
+
+
+.about__container {
+    max-width: $max-width;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__title {
+    font-size: $subtitle-size;
+    color: $white-color;
+    &::first-letter {
+        color: $color-secondary;
+    }
+}
+
+.about__text {
+    font-size: $text-size;
+    color: $text-color;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.orangeColor {
+    color: #dcb139;
+}

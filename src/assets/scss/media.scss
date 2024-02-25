@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  .skills__container {
+    justify-content: flex-start;
+  }
+
+  .projects__content {
+    gap: 80px;
+  }
+
+  .projects__img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 668px) {
+}
+
+@media (max-width: 568px) {
+}
+
+@media (max-width: 480px) {
+  .projects__descriptions {
+    width: 300px;
+  }
+
+  .projects__content {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .overlay__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .btn-secondary {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
