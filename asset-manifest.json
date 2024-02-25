@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.290f035f.css",
+    "main.js": "/my-portfolio/static/js/main.b5b794cb.js",
+    "static/media/Alexandr_Gritsaenko.pdf": "/my-portfolio/static/media/Alexandr_Gritsaenko.669e56d8ac8a0322e20e.pdf",
+    "static/media/reactMovie.jpeg": "/my-portfolio/static/media/reactMovie.46c723e71611774b0071.jpeg",
+    "static/media/weatherReact.jpg": "/my-portfolio/static/media/weatherReact.c05d3e8633bc3f41976c.jpg",
+    "static/media/weather.png": "/my-portfolio/static/media/weather.fce1bbcaab72c2252dc6.png",
+    "static/media/github.svg": "/my-portfolio/static/media/github.73c48a3964f5685a36678972f67e7b1f.svg",
+    "static/media/instagram.svg": "/my-portfolio/static/media/instagram.1573781f1613c1c7bb020a59cb1a2f76.svg",
+    "static/media/telegram.svg": "/my-portfolio/static/media/telegram.909ec11299a35884934133a7849fc86f.svg",
+    "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.4d2ad354ce53080b9e010192165968ae.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.290f035f.css.map": "/my-portfolio/static/css/main.290f035f.css.map",
+    "main.b5b794cb.js.map": "/my-portfolio/static/js/main.b5b794cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.290f035f.css",
+    "static/js/main.b5b794cb.js"
+  ]
+}
